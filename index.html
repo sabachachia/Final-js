@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <title>FinalMovies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href="./index.html" class="header_h1">FinalMovies</a>
+
+            <div class="header_rightside">
+                <nav class="header_nav">
+                    <ul class="header_ul">
+                        <li><a href="./index.html" class="header_a active">Home</a></li>
+                        <li><a href="./movies.html" class="header_a">Movies</a></li>
+                        <li><a href="./aboutus.html" class="header_a">About Us</a></li>
+                        <li><a href="./contact.html" class="header_a">Contact</a></li>
+                        <li><a href="./signin.html" class="header_a log_in" id="login_btn">Log in</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger" id="burger"><i class="fa-solid fa-bars burger"></i></button>
+                <button class="xmark" id="xmark"><i class="fa-solid fa-xmark xmark"></i></button>
+
+                <div class="profile_container">
+                    <button class="profile_btn" id="profile_btn"><i class="fa-solid fa-user"></i></button>
+                    <div class="profile_panel" id="profile_panel">
+                        <div class="profile_panel_content">
+                            <p class="profile_user_text" id="profile_user_text">Logged in as: <span id="profile_username"></span></p>
+                            <button class="profile_panel_btn" id="logout_panel_btn">Log Out</button>
+                            <button class="profile_panel_btn profile_panel_btn_delet_acc" id="delete_account_btn">Delete Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+         <!-- main section -->
+         <section class="main_section">
+            <div class="slideshow-container">
+                <div class="bg_posters">
+                    <img src="./images/Forrest Gump.jpg" style="object-fit: fill;">
+                </div>
+                <div class="bg_posters">
+                    <img src="./images/Joker.jpg" style="object-fit: fill;">
+                </div>
+                <div class="bg_posters">
+                    <img src="./images/Goodfellas.jpg" style="object-fit: fill;">
+                </div>
+            </div>
+            <div class="main_section_content">
+                <h1 class="main_section_h1">FinalMovies</h1>
+                <p class="main_section_p">Search for your favorite movies, TV series, and anime.</p>
+                <div class="search_container">
+                    <input type="text" class="search_bar" id="homepage_input_bar" placeholder="Search for anything...">
+                    <span class="search_icon" id="search_btn"><i class="fas fa-search"></i></span>
+                </div>
+                <span class="main_section_span">Top Search:</span>
+                <ul class="top_search_ul">
+                    <li class="top_search_li">Lord of Mysteries</li>
+                    <li class="top_search_li">One Piece</li>
+                    <li class="top_search_li">Jujutsu Kaisen</li>
+                    <li class="top_search_li">Spirited Away</li>
+                </ul>
+                <a href="./movies.html"><button class="watch_btn">Watch Movies</button></a>
+            </div>
+         </section>
+         
+         <!-- main section 2 -->
+          <section class="main_section_2">
+            <!-- javascript -->
+          </section>
+         <!-- footer -->
+          <footer>
+            <p class="footer_p">&copy; 2025 FinalMovies. All rights reserved.</p>
+            <div>
+                <ul class="footer_ul">
+                    <li><a href="#" class="footer_a">Privacy Policy</a></li>
+                    <li><a href="#" class="footer_a">Terms of Service</a></li>
+                    <li><a href="#" class="footer_a">Contact Us</a></li>
+                </ul>
+            </div>
+          </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

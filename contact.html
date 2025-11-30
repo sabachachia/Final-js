@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href="./index.html" class="header_h1">FinalMovies</a>
+
+            <div class="header_rightside">
+                <nav class="header_nav">
+                    <ul class="header_ul">
+                        <li><a href="./index.html" class="header_a">Home</a></li>
+                        <li><a href="./movies.html" class="header_a">Movies</a></li>
+                        <li><a href="./aboutus.html" class="header_a">About Us</a></li>
+                        <li><a href="./contact.html" class="header_a active">Contact</a></li>
+                        <li><a href="./signin.html" class="header_a log_in" id="login_btn">Log in</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger" id="burger"><i class="fa-solid fa-bars burger"></i></button>
+                <button class="xmark" id="xmark"><i class="fa-solid fa-xmark xmark"></i></button>
+
+                <div class="profile_container">
+                    <button class="profile_btn" id="profile_btn"><i class="fa-solid fa-user"></i></button>
+                    <div class="profile_panel" id="profile_panel">
+                        <div class="profile_panel_content">
+                            <p class="profile_user_text" id="profile_user_text">Logged in as: <span id="profile_username"></span></p>
+                            <button class="profile_panel_btn" id="logout_panel_btn">Log Out</button>
+                            <button class="profile_panel_btn profile_panel_btn_delet_acc" id="delete_account_btn">Delete Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main class="page3_main">
+            <div class="contact_section">
+                <!-- left side -->
+                <div class="contact_section_left">
+                    <h2 class="page3_h2">Get in Touch</h2>
+                    <form action="#" method="get" class="form">
+                        <div class="form_top_section">
+                            <input type="text" name="FullName" placeholder="Full Name" class="name_input">
+                            <input type="email" name="Email" placeholder="Email" class="email_input">
+                        </div>
+                        <textarea name="Message" placeholder="Message" class="message_textarea"></textarea>
+                        <button type="submit" class="send_button">SEND MESSAGE</button>
+                    </form>
+                </div>
+
+                <!-- right side-->
+                <div class="map_section">
+                    <ul class="contact_buttons_ul">
+                        <li class="contact_buttons">
+                            <a href="tel:+995555123456"><i class="icons fa-solid fa-phone-volume"></i></a>
+                        </li>
+                        <li class="contact_buttons">
+                            <a href="mailto:support@finalmovies.com"><i class="icons fa-regular fa-envelope"></i></a>
+                        </li>
+                        <li class="contact_buttons">
+                            <a href="https://maps.app.goo.gl/BZ3Lwx4iB2m6W3tQ9" target="_blank">
+                                <i class="icons fa-solid fa-location-dot"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33081.86427436543!2d44.79592970019483!3d41.699187781224246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d57d314f4a7%3A0x692f47f1da1dd66a!2sLiberty%20square!5e0!3m2!1sen!2sge!4v1748863401917!5m2!1sen!2sge" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        class="map">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <p class="footer_p">&copy; 2025 FinalMovies. All rights reserved.</p>
+            <div>
+                <ul class="footer_ul">
+                    <li><a href="#" class="footer_a">Privacy Policy</a></li>
+                    <li><a href="#" class="footer_a">Terms of Service</a></li>
+                    <li><a href="#" class="footer_a">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

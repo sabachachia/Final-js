@@ -1,0 +1,83 @@
+/* RESPONSIVE: show burger icon on mobile */
+@media (max-width: 900px) {
+    .sidebar_popular {
+        display: none;
+    }
+    .header_nav{
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        background: #0F172A;
+        padding: 40px 20px;
+        box-shadow: -8px 0 24px rgba(0,0,0,0.5);
+        z-index: 100;
+        display: flex;
+        align-items: flex-start;
+    }
+    .header_nav.open{
+        right: 0;   
+    }
+    .header_ul{
+        flex-direction: column;
+        gap: 14px;
+    }
+    .burger{
+        display: block;
+    }
+    .movies_grid{
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+}
+@media (max-width: 768px) {
+    .about_highlights{
+        display: flex;
+        flex-direction: column;
+    }
+    .main_section_aboutUs{
+        padding: 32px 16px;
+    }
+    .about_title{
+        font-size: 28px;
+    }
+    .about_subtitle{
+        font-size: 18px;
+    }
+    .about_text{
+        font-size: 14px;
+    }
+    .contact_section{
+        flex-direction: column;
+        row-gap: 24px;
+    }
+    .main_section_h1{
+        font-size: 44px;
+    }
+    .main_section_p{
+        font-size: 16px;
+    }.search_container{
+        max-width: 300px;
+    }
+    .search_bar{
+        font-size: 14px;
+        padding: 10px 40px 10px 16px;
+        height: 50px;
+    }
+    .search_icon{
+        font-size: 18px;
+        padding: 10px;
+        top: 38%;
+    }
+    .top_search_li{
+        font-size: 10px;
+    }
+    .main_section_2{
+        height: 250px;
+    }
+    .footer_p{
+        font-size: 12px;
+    }
+    .footer_a{
+        font-size: 12px;
+    }
+
+}

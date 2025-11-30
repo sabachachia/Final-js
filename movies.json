@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "runtime": 148,
+    "status": "released",
+    "overview": "A thief who steals corporate secrets through dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "image_url": "./images/Inception.jpg"
+  },
+  {
+    "name": "The Shawshank Redemption",
+    "genre": "Drama",
+    "year": 1994,
+    "runtime": 142,
+    "status": "released",
+    "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "image_url": "./images/The Shawshank Redemption.jpg"
+  },
+  {
+    "name": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "runtime": 152,
+    "status": "released",
+    "overview": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    "image_url": "./images/The Dark Knight.jpg"
+  },
+  {
+    "name": "Parasite",
+    "genre": "Thriller",
+    "year": 2019,
+    "runtime": 132,
+    "status": "released",
+    "overview": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "image_url": "./images/Parasite.jpg"
+  },
+  {
+    "name": "Avatar The Way of Water",
+    "genre": "Adventure",
+    "year": 2022,
+    "runtime": 192,
+    "status": "released",
+    "overview": "Jake Sully lives with his newfound family on Pandora. Once a familiar threat returns, Jake must work with Neytiri and the Na'vi race to protect their planet.",
+    "image_url": "./images/Avatar.jpg"
+  },
+  {
+    "name": "Dune Part Two",
+    "genre": "Sci-Fi",
+    "year": 2024,
+    "runtime": 166,
+    "status": "released",
+    "overview": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+    "image_url": "./images/Dune Part Two.jpg"
+  },
+  {
+    "name": "The Batman",
+    "genre": "Action",
+    "year": 2022,
+    "runtime": 176,
+    "status": "released",
+    "overview": "When a sadistic serial killer begins murdering political figures in Gotham, Batman is forced to investigate hidden corruption.",
+    "image_url": "./images/The Batman.jpg"
+  },
+  {
+    "name": "Everything Everywhere All at Once",
+    "genre": "Comedy",
+    "year": 2022,
+    "runtime": 139,
+    "status": "released",
+    "overview": "An aging Chinese immigrant is swept up into an insane adventure through the multiverse.",
+    "image_url": "./images/Everything Everywhere All at Once.jpg"
+  },
+  {
+    "name": "Joker",
+    "genre": "Crime",
+    "year": 2019,
+    "runtime": 122,
+    "status": "released",
+    "overview": "Arthur Fleck, a troubled comedian, descends into madness and becomes the criminal mastermind known as Joker.",
+    "image_url": "./images/Joker.jpg"
+  },
+  {
+    "name": "Interstellar",
+    "genre": "Adventure",
+    "year": 2014,
+    "runtime": 169,
+    "status": "released",
+    "overview": "A team of explorers travel through a wormhole in space seeking humanity's survival.",
+    "image_url": "./images/Interstellar.jpg"
+  },
+  {
+    "name": "Avengers Endgame",
+    "genre": "Action",
+    "year": 2019,
+    "runtime": 181,
+    "status": "released",
+    "overview": "The Avengers assemble once more to reverse Thanos' actions and restore balance to the universe.",
+    "image_url": "./images/Avengers Endgame.webp"
+  },
+  {
+    "name": "Gladiator",
+    "genre": "Action",
+    "year": 2000,
+    "runtime": 155,
+    "status": "released",
+    "overview": "A former Roman General seeks vengeance after losing his family and freedom to a corrupt emperor.",
+    "image_url": "./images/Gladiator.jpg"
+  },
+  {
+    "name": "The Matrix",
+    "genre": "Action",
+    "year": 1999,
+    "runtime": 136,
+    "status": "released",
+    "overview": "A computer hacker learns the truth about his reality and joins a rebellion against its controllers.",
+    "image_url": "./images/The Matrix.png"
+  },
+  {
+    "name": "Pulp Fiction",
+    "genre": "Crime",
+    "year": 1994,
+    "runtime": 154,
+    "status": "released",
+    "overview": "The lives of criminals intertwine in four tales of violence and redemption.",
+    "image_url": "./images/Pulp Fiction.jpg"
+  },
+  {
+    "name": "Forrest Gump",
+    "genre": "Drama",
+    "year": 1994,
+    "runtime": 142,
+    "status": "released",
+    "overview": "Historical events unfold through the eyes of a man with an IQ of 75.",
+    "image_url": "./images/Forrest Gump.jpg"
+  },
+  {
+    "name": "The Lord of the Rings The Fellowship of the Ring",
+    "genre": "Adventure",
+    "year": 2001,
+    "runtime": 178,
+    "status": "released",
+    "overview": "A Hobbit and eight companions begin a quest to destroy the One Ring.",
+    "image_url": "./images/The Lord of the Rings.jpg"
+  },
+  {
+    "name": "Goodfellas",
+    "genre": "Crime",
+    "year": 1990,
+    "runtime": 146,
+    "status": "released",
+    "overview": "The story of Henry Hill and his life in the mob.",
+    "image_url": "./images/Goodfellas.jpg"
+  },
+  {
+    "name": "The Silence of the Lambs",
+    "genre": "Thriller",
+    "year": 1991,
+    "runtime": 118,
+    "status": "released",
+    "overview": "A young F.B.I. cadet must seek help from a cannibal killer to stop another serial killer.",
+    "image_url": "./images/The Silence of the Lambs.jpg"
+  },
+  {
+    "name": "Avatar 3",
+    "genre": "Adventure",
+    "year": 2025,
+    "runtime": null,
+    "status": "not released",
+    "overview": "The next chapter in the saga of Pandora and the Na'vi.",
+    "image_url": "./images/Avatar 3.jpg"
+  },
+  {
+    "name": "Superman Legacy",
+    "genre": "Action",
+    "year": 2025,
+    "runtime": null,
+    "status": "not released",
+    "overview": "The first film in the new DC Universe following Superman's journey.",
+    "image_url": "./images/Superman Legacy.jpg"
+  }
+]

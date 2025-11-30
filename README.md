@@ -1,1 +1,1 @@
-# Final-js
+# javascriptCourse_FinalProject

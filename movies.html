@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <title>FinalMovies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <a href="./index.html" class="header_h1">FinalMovies</a>
+
+            <div class="header_rightside">
+                <nav class="header_nav">
+                    <ul class="header_ul">
+                        <li><a href="./index.html" class="header_a">Home</a></li>
+                        <li><a href="./movies.html" class="header_a active">Movies</a></li>
+                        <li><a href="./aboutus.html" class="header_a">About Us</a></li>
+                        <li><a href="./contact.html" class="header_a">Contact</a></li>
+                        <li><a href="./signin.html" class="header_a log_in" id="login_btn">Log in</a></li>
+                    </ul>
+                </nav>
+
+                <button class="burger" id="burger"><i class="fa-solid fa-bars burger"></i></button>
+                <button class="xmark" id="xmark"><i class="fa-solid fa-xmark xmark"></i></button>
+
+                <div class="profile_container">
+                    <button class="profile_btn" id="profile_btn"><i class="fa-solid fa-user"></i></button>
+                    <div class="profile_panel" id="profile_panel">
+                        <div class="profile_panel_content">
+                            <p class="profile_user_text" id="profile_user_text">Logged in as: <span id="profile_username"></span></p>
+                            <button class="profile_panel_btn" id="logout_panel_btn">Log Out</button>
+                            <button class="profile_panel_btn profile_panel_btn_delet_acc" id="delete_account_btn">Delete Account</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+         
+         <!-- main section -->
+          <section class="main_section_movies">
+            <aside class="sidebar">
+                <h2>Filter Movies</h2>
+                <div class="filter-container">
+                <div class="filter-group">
+                    <label class="filter_txt">Ganre</label>
+                    <div class="filter-options">
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Action" id="genre-action">
+                            <label for="genre-action" class="filter_option_txt">Action</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Adventure" id="genre-adventure">
+                            <label for="genre-adventure" class="filter_option_txt">Adventure</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Comedy" id="genre-comedy">
+                            <label for="genre-comedy" class="filter_option_txt">Comedy</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Crime" id="genre-crime">
+                            <label for="genre-crime" class="filter_option_txt">Crime</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Drama" id="genre-drama">
+                            <label for="genre-drama" class="filter_option_txt">Drama</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Sci-Fi" id="genre-scifi">
+                            <label for="genre-scifi" class="filter_option_txt">Sci-Fi</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" class="genre-filter" value="Thriller" id="genre-thriller">
+                            <label for="genre-thriller" class="filter_option_txt">Thriller</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="filter-group">
+                    <label for="year-min" class="filter_txt">Sort by</label><br>
+                    <select name="year" id="year_filter" class="movie_year_filter">
+                        <option value="all">Any Year</option>
+                        <option value="2025">2025</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                        <option value="2009">2009</option>
+                        <option value="2008">2008</option>
+                        <option value="2007">2007</option>
+                        <option value="2006">2006</option>
+                        <option value="2005">2005</option>
+                        <option value="2004">2004</option>
+                        <option value="2003">2003</option>
+                        <option value="2002">2002</option>
+                        <option value="2001">2001</option>
+                        <option value="2000">2000</option>
+                        <option value="1999">1999</option>
+                        <option value="1998">1998</option>
+                        <option value="1997">1997</option>
+                        <option value="1996">1996</option>
+                        <option value="1995">1995</option>
+                        <option value="1994">1994</option>
+                        <option value="1993">1993</option>
+                        <option value="1992">1992</option>
+                        <option value="1991">1991</option>
+                        <option value="1990">1990</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="year-min" class="filter_txt">Year</label><br>
+                    <select name="year" id="sort_filter" class="movie_year_filter">
+                        <option value="Popular">Popular</option>
+                        <option value="Newest">Newest</option>
+                        <option value="Oldest">Oldest</option>
+                    </select>
+                </div>
+                <button id="apply-filters" class="apply_btn" onclick="filterMovies()">Apply Filters</button>
+            </aside>
+            <div class="movies_container">
+                <input type="text" id="search_input" class="search_bar" onkeyup="searchMovies()" placeholder="Search for movies...">
+                <div class="movies_grid" id="movies_grid">
+                    <!-- Javascript -->
+                </div>
+            </div>
+            <aside class="sidebar sidebar_popular">
+                <h2>Most Popular</h2>
+                <div class="popular_movies" id="popular_movies">
+                    <!-- Javascript -->
+                </div>
+            </aside>
+          </section>
+          <!-- footer -->
+            <footer>
+                <p class="footer_p">&copy; 2025 FinalMovies. All rights reserved.</p>
+                <div>
+                    <ul class="footer_ul">
+                        <li><a href="#" class="footer_a">Privacy Policy</a></li>
+                        <li><a href="#" class="footer_a">Terms of Service</a></li>
+                        <li><a href="#" class="footer_a">Contact Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
